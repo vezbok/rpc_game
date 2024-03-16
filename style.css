@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    /* margin-top: 50; */
+    padding-top: 30;
+}
+
+body {
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+ .choose {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card-img {
+    width: 120px;
+    align-self: center;
+}
+
+.card {
+    border: solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: lightgray;
+}
+
+.footer {
+    margin-top: auto
+}
+
+.play-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    padding: 40px;
+    margin: 50px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+#summary {
+    text-align: center;
+    font-weight: 1000;
+    color: aquamarine;
+    font-size: 32px;
+    /* margin: auto; */
+    margin-top: 30px;
+    margin-bottom: 0;
+}
