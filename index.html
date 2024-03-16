@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="container">
+        <div class="play-header">
+            <p id="summary"></p>
+            <p id="results">Play</p>
+            <p id="score">Score: You - 0, Computer - 0</p>
+            <div class="game">
+                <div id="player_choice">
+                    <p> Your choice: </p>
+                    <img class="card-img card" src="img/unknown.png" />
+                </div>
+                <div id="computer_choice">
+                    <p> Computer choice: </p>
+                    <img class="card-img card" src="img/unknown.png" />
+                </div>
+            </div>
+        </div>
+        <div class="choose">
+            <div id="rock" class="card" ><image class="card-img" src="img/rocks.png"></image></div>
+            <div id="paper" class="card" ><image class="card-img" src="img/paper-plane.png"></image></div>
+            <div id="scissors" class="card"><image class="card-img" src="img/cutting.png"></image></div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="https://www.flaticon.com/free-icons/rock" title="rock icons">Rock icons created by Freepik - Flaticon</a><br>
+                <a href="https://www.flaticon.com/free-icons/origami" title="origami icons">Origami icons created by Smashicons - Flaticon</a><br>
+                <a href="https://www.flaticon.com/free-icons/scissors" title="scissors icons">Scissors icons created by VectorPortal - Flaticon</a><br>
+                <a href="https://www.flaticon.com/free-icons/unknown" title="unknown icons">Unknown icons created by juicy_fish - Flaticon</a>
+            </p>
+        </div>
+    </div>
 </body>
 </html>
